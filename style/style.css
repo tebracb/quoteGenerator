@@ -1,0 +1,166 @@
+@font-face {
+    font-family: elixia;
+    src: url("../style/font/ELIXIA.ttf");
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  @media (max-width:801px) {
+    img {
+      width: 120%;
+    }
+  }
+  
+.audio_block {
+  text-align: right;
+}
+
+  body {
+    font-family: elixia;
+  }
+
+  .h1_utop {
+    text-shadow: 0 0 3px #00FF66;
+  }
+
+  .h1_distop {
+    text-shadow: 0 0 3px #FD1C03;
+  }
+
+  .main {
+    margin: 0px 120px;
+  }
+
+  h1 {
+      text-transform: uppercase;
+  }
+
+  h2 {
+    font-family: 'Jura', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+
+  hr{
+    width: 20%;
+    margin-bottom: 10px;
+  }
+
+  .multipleQuotes {   
+      background-color: transparent;
+      border: none;
+      cursor:pointer;
+      margin-top: -10px;
+      outline: none;
+      font-family: 'Jura', sans-serif;
+  }
+
+  .text-secondary {
+    color: #6c757d;
+    font-style: italic;
+  }
+
+  #audioIcon {
+    height: auto;
+    width: 50%;
+  }
+
+  #audio {
+   height: inherit;
+    background-color: transparent;
+      border: none;
+      cursor:pointer;
+      outline: none;
+      float: right;
+      margin-left: -10%;
+  
+      
+  }
+
+span {
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: 'Jura', sans-serif;
+}
+
+
+ .quoteButton {
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-width: 1px;
+  color: #FFFFFF;
+  font-family: 'Jura', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  padding: 0.3em;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0px 3px;
+
+ }
+
+
+  #utopButton {
+ background: #54F6F6;
+ background-image: -webkit-linear-gradient(top, #54F6F6, #028090);
+ background-image: -moz-linear-gradient(top, #54F6F6, #028090);
+ background-image: -ms-linear-gradient(top, #54F6F6, #028090);
+ background-image: -o-linear-gradient(top, #54F6F6, #028090);
+ background-image: linear-gradient(to bottom, #54F6F6, #028090);
+ 
+
+ text-shadow: 1px 1px 20px #FFFFFF;
+
+    }
+    
+    #utopButton:hover {
+    
+    background-image: -webkit-linear-gradient(top, #58FFFF, #4d9e95);
+    background-image: -moz-linear-gradient(top, #58FFFF, #4d9e95);
+    background-image: -ms-linear-gradient(top, #58FFFF, #4d9e95);
+    background-image: -o-linear-gradient(top, #58FFFF, #4d9e95);
+    background-image: linear-gradient(to bottom, #58FFFF, #4d9e95);
+    text-decoration: none;
+
+    box-shadow: 1px 1px 0px 0px #47d8dcad;
+    -webkit-box-shadow: 1px 1px 10px 0px #47d8dcad;
+    -moz-box-shadow: 1px 1px 10px 0px #47d8dcad;
+
+    }
+
+#distopButton {
+  background: #54F6F6;
+  background-image: -webkit-linear-gradient(top, #d8b6d7, #56411D);
+  background-image: -moz-linear-gradient(top, #d8b6d7, #56411D);
+  background-image: -ms-linear-gradient(top, #d8b6d7, #56411D);
+  background-image: -o-linear-gradient(top, #d8b6d7, #56411D);
+  background-image: linear-gradient(to bottom, #d8b6d7, #56411D);
+  
+ 
+  text-shadow: 1px 1px 20px #FFFFFF;
+}
+
+#distopButton:hover {
+  /* background: #58FFFF; */
+  background-image: -webkit-linear-gradient(top, #d8b6d7, #945a5a);
+  background-image: -moz-linear-gradient(top, #d8b6d7, #945a5a);
+  background-image: -ms-linear-gradient(top, #d8b6d7, #945a5a);
+  background-image: -o-linear-gradient(top, #d8b6d7, #945a5a);
+  background-image: linear-gradient(to bottom, #d8b6d7, #945a5a);
+  text-decoration: none;
+
+  box-shadow: 1px 1px 0px 0px #b2a0ce;
+  -webkit-box-shadow: 1px 1px 10px 0px #b2a0ce;
+  -moz-box-shadow: 1px 1px 10px 0px #b2a0ce;
+
+
+  }
